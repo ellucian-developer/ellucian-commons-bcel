@@ -24,12 +24,6 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-<!--   <parent> -->
-<!--     <groupId>org.apache.commons</groupId> -->
-<!--     <artifactId>commons-parent</artifactId> -->
-<!--     <version>53</version> -->
-<!--   </parent> -->
-
   <groupId>com.ellucian.bcel</groupId>
   <artifactId>bcel</artifactId>
   <packaging>jar</packaging>
@@ -45,26 +39,6 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
-<!--     <commons.componentid>bcel</commons.componentid> -->
-<!--     <commons.module.name>org.apache.bcel</commons.module.name> -->
-<!--     <commons.release.version>6.6.0</commons.release.version> -->
-<!--     <commons.release.isDistModule>true</commons.release.isDistModule> -->
-<!--     <commons.rc.version>RC1</commons.rc.version> -->
-<!--     <commons.bc.version>6.5.0</commons.bc.version> -->
-<!--     <commons.release.desc>(Java 8)</commons.release.desc> -->
-<!--     <commons.scmPubUrl>https://svn.apache.org/repos/infra/websites/production/commons/content/proper/commons-bcel</commons.scmPubUrl> -->
-<!--     <commons.distSvnStagingUrl>scm:svn:https://dist.apache.org/repos/dist/dev/commons/${commons.componentid}</commons.distSvnStagingUrl> -->
-<!--     <commons.releaseManagerName>Gary Gregory</commons.releaseManagerName>     -->
-<!--     <commons.releaseManagerKey>86fdc7e2a11262cb</commons.releaseManagerKey> -->
-<!--     Configuration properties for the OSGi maven-bundle-plugin -->
-<!--     <commons.osgi.symbolicName>org.apache.${commons.componentid}</commons.osgi.symbolicName> -->
-<!--     <commons.osgi.export>org.apache.bcel.*;version=${project.version};-noimport:=true</commons.osgi.export> -->
-<!--     <commons.osgi.import>*</commons.osgi.import> -->
-<!--     <commons.osgi.dynamicImport /> -->
-<!--     <commons.osgi.private /> -->
-<!--     <commons.jira.id>BCEL</commons.jira.id> -->
-<!--     <commons.jira.pid>12314220</commons.jira.pid> -->
-<!--     <commons.surefire.version>3.0.0-M7</commons.surefire.version> -->
     <checkstyle.plugin.version>3.1.2</checkstyle.plugin.version>
     <jna.version>5.12.1</jna.version>
     <commons.japicmp.version>0.15.7</commons.japicmp.version>
@@ -538,16 +512,6 @@
 
       <build>
         <plugins>
-          <!-- Enable the compilation of the benchmarks -->
-<!--           <plugin> -->
-<!--             <artifactId>maven-compiler-plugin</artifactId> -->
-<!--             <version>${commons.compiler.version}</version> -->
-<!--             <configuration combine.self="override"> -->
-<!--               <testIncludes> -->
-<!--                 <testInclude>**/*</testInclude> -->
-<!--               </testIncludes> -->
-<!--             </configuration> -->
-<!--           </plugin> -->
 
           <!-- Hook the benchmarks to the test phase -->
           <plugin>
