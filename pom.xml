@@ -33,7 +33,7 @@
   <groupId>com.ellucian.bcel</groupId>
   <artifactId>bcel</artifactId>
   <packaging>jar</packaging>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>Ellucian Commons BCEL</name>
   <description>Fork of Apache Commons Bytecode Engineering Library which fixes CVE-2022-34169</description>
 
